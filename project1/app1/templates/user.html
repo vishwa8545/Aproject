@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block body%}
+<h1>the users are</h1>
+{%for i in object%}
+<h2>Name:{{i.name}}</h2>
+<h3>Age:{{i.age}}</h3>
+<h4>Digree:{{i.degree}}</h4>
+{%endfor%}
+{%endblock%}
